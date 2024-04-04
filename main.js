@@ -26,26 +26,26 @@ scene.fog = fog;
  */
 const textureLoader = new THREE.TextureLoader();
 //DoorTexture
-const doorColorTexture = textureLoader.load('./static/textures/door/color.jpg');
-const doorAlphaTexture = textureLoader.load('./static/textures/door/alpha.jpg');
-const doorAmbientOcclusionTexture = textureLoader.load('./static/textures/door/ambientOcclusion.jpg');
-const doorHeightTexture = textureLoader.load('./static/textures/door/height.jpg');
-const doorNormalTexture = textureLoader.load('./static/textures/door/normal.jpg');
-const doorMetalnessTexture = textureLoader.load('./static/textures/door/metalness.jpg');
-const doorRoughnessTexture = textureLoader.load('./static/textures/door/roughness.jpg');
+const doorColorTexture = textureLoader.load('./public/static/textures/door/color.jpg ');
+const doorAlphaTexture = textureLoader.load('./public/static/textures/door/alpha.jpg');
+const doorAmbientOcclusionTexture = textureLoader.load('./public/static/textures/door/ambientOcclusion.jpg');
+const doorHeightTexture = textureLoader.load('./public/static/textures/door/height.jpg');
+const doorNormalTexture = textureLoader.load('./public/static/textures/door/normal.jpg');
+const doorMetalnessTexture = textureLoader.load('./public/static/textures/door/metalness.jpg');
+const doorRoughnessTexture = textureLoader.load('./public/static/textures/door/roughness.jpg');
 
 //WallBricksTexture
-const bricksColorTexture = textureLoader.load('./static/textures/bricks/color.jpg');
-const bricksAmbientOcclusionTexture = textureLoader.load('./static/textures/bricks/ambientOcclusion.jpg');
-const bricksNormalTexture = textureLoader.load('./static/textures/bricks/normal.jpg');
-const bricksRoughnessTexture = textureLoader.load('./static/textures/bricks/roughness.jpg');
+const bricksColorTexture = textureLoader.load('./public/static/textures/bricks/color.jpg');
+const bricksAmbientOcclusionTexture = textureLoader.load('./public/static/textures/bricks/ambientOcclusion.jpg');
+const bricksNormalTexture = textureLoader.load('./public/static/textures/bricks/normal.jpg');
+const bricksRoughnessTexture = textureLoader.load('./public/static/textures/bricks/roughness.jpg');
 
 
 //Grass
-const grassColorTexture = textureLoader.load('./static/textures/grass/color.jpg');
-const grassAmbientOcclusionTexture = textureLoader.load('./static/textures/grass/ambientOcclusion.jpg');
-const grassNormalTexture = textureLoader.load('./static/textures/grass/normal.jpg');
-const grassRoughnessTexture = textureLoader.load('./static/textures/grass/roughness.jpg');
+const grassColorTexture = textureLoader.load('./public/static/textures/grass/color.jpg');
+const grassAmbientOcclusionTexture = textureLoader.load('./public/static/textures/grass/ambientOcclusion.jpg');
+const grassNormalTexture = textureLoader.load('./public/static/textures/grass/normal.jpg');
+const grassRoughnessTexture = textureLoader.load('./public/static/textures/grass/roughness.jpg');
 
 grassColorTexture.repeat.set(8,8);
 grassAmbientOcclusionTexture.repeat.set(8,8);
